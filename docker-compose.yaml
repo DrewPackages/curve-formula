@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build:
+      context: .
+    ports:
+      - ${PORT:-80}:80
